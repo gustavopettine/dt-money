@@ -2,6 +2,8 @@ import igniteLogo from '../../assets/ignite-logo.svg'
 
 import * as Dialog from '@radix-ui/react-dialog'
 
+import { NewTransactionModal } from '../NewTransactionModal'
+
 import {
   HeaderContainer,
   HeaderContent,
@@ -23,15 +25,7 @@ export function Header() {
             <NewTransactionButton>New transaction</NewTransactionButton>
           </Dialog.Trigger>
 
-          <Dialog.Portal>
-            <Dialog.Overlay />
-
-            <Dialog.Content>
-              <Dialog.Title>New transaction</Dialog.Title>
-
-              <Dialog.Close />
-            </Dialog.Content>
-          </Dialog.Portal>
+          <NewTransactionModal />
         </Dialog.Root>
       </HeaderContent>
     </HeaderContainer>
