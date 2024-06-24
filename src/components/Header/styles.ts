@@ -16,6 +16,18 @@ export const HeaderContent = styled.div`
   align-items: center;
 `
 
+export const HeaderLogo = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+
+  p {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: ${(props) => props.theme['gray-100']};
+  }
+`
+
 export const NewTransactionButton = styled.button`
   height: 50px;
   border: 0;
