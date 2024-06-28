@@ -1,20 +1,36 @@
 {
-    "transactions": [
-        {
-            "id": 1,
-            "description": "Website development",
-            "type": "income",
-            "category": "Sale",
-            "price": 12000,
-            "createdAt": "2024-06-25T14:39:16.933Z"
-        },
-        {
-            "id": 1,
-            "description": "Apartment rent",
-            "type": "outcome",
-            "category": "Expense",
-            "price": 2000,
-            "createdAt": "2024-06-25T14:46:38.903Z"
-        }
-    ]
+  "transactions": [
+    {
+      "id": 1,
+      "description": "Website development",
+      "type": "income",
+      "category": "Sale",
+      "price": 12000,
+      "createdAt": "2024-06-25T14:39:16.933Z"
+    },
+    {
+      "id": 1,
+      "description": "Apartment rent",
+      "type": "outcome",
+      "category": "Expense",
+      "price": 2000,
+      "createdAt": "2024-06-25T14:46:38.903Z"
+    },
+    {
+      "description": "Website development",
+      "price": 10000,
+      "category": "Sale",
+      "type": "income",
+      "createdAt": "2024-06-28T16:28:27.194Z",
+      "id": 2
+    },
+    {
+      "description": "Website development",
+      "price": 5000,
+      "category": "Sale",
+      "type": "income",
+      "createdAt": "2024-06-28T16:56:38.143Z",
+      "id": 3
+    }
+  ]
 }
